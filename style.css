@@ -1,0 +1,592 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+.container1
+ {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+      
+}
+.left
+{
+    background-color: white;
+    width: 20%;
+    
+}
+
+.left h1 
+{
+    margin-top: 8px;
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 30px;
+}
+
+.left p 
+{
+    margin: 20px;
+    font-size: 24px;
+    margin-right: 10px;
+}
+.left a 
+{
+    text-decoration: none;
+    color: rgb(51, 46, 46);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container2 
+{
+    background-color: rgb(228, 222, 222);
+    width: 80%;
+    height: 1000vh;
+    padding: 20px;
+}
+.dashboard 
+{
+    margin-left: 40px;
+
+}
+.dashboard h1 
+{
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+.dashboard p 
+{
+    color: rgb(110, 106, 106);
+    font-size: 17px;
+    font-weight: 500;
+
+}
+.box1
+{
+    width: 325px;
+    height: 85px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.total h1 
+{
+    font-size: 15px;
+    font-weight: 500;
+}
+.total p 
+{
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 8px;
+}
+.icon1 
+{
+    font-size: 25px;
+    width: 45px;
+    height: 45px;
+    padding: 5px 15px;
+    margin-left: 32px;
+    border-radius: 50%;
+    background-color: rgb(127, 236, 127);
+    color: green;
+}
+.container3
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
+.icon2 
+{
+    font-size: 25px;
+    width: 45px;
+    height: 45px;
+    padding: 5px 13px;
+    margin-left: 32px;
+    border-radius: 50%;
+    background-color: rgb(117, 117, 247);
+    color: purple;
+}
+.icon3 
+{
+    font-size: 25px;
+    width: 45px;
+    height: 45px;
+    padding: 5px 13px;
+    margin-left: 32px;
+    border-radius: 50%;
+    background-color: rgb(244, 137, 137);
+    color: red;
+}
+.container4
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+}
+.monthly 
+{
+    width: 46%;
+    height: 400px;
+    background-color: white;
+    border-radius: 5px;
+}
+.monthly h1 
+{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 30px 27px;
+}
+.chart 
+{
+    width: 90%;
+    height: 282px;
+    margin-left: 26px;
+    background-color: rgb(229, 228, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chart p 
+{
+    text-align: center;
+    color: gray;
+}
+.container5
+{
+    width: 95%;
+    height: 300px;
+    background-color: white;
+    border-radius: 2px;
+    margin: 25px 32px;
+}
+.recent h1 
+{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+}
+.first 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(247, 243, 243);
+    color: rgb(110, 109, 109);
+    padding: 10px;
+    
+}
+.second 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+
+}
+.second p
+{
+    margin: 0px 20px 0px 0px;
+}
+.second h4 
+{
+    font-size: 17px;
+    font-weight: 400;
+    color: maroon;
+    
+    
+}
+.third 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+
+}
+.third h4 
+{
+    font-size: 17px;
+    font-weight: 400;
+    color: green;
+}
+.four 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+
+}
+.four h4 
+{
+    font-size: 17px;
+    font-weight: 400;
+    color: maroon;
+      
+}
+.container6
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.transactions h1
+{
+    font-size: 35px;
+    margin-left: 30px;
+
+}
+.transactions p
+{
+    color: rgb(129, 120, 120);
+    margin-left: 30px;
+
+}
+.add a
+{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 8px 15px;
+    border-radius: 3px;
+}
+.add
+{
+    margin-right: 30px;
+}
+.container7
+{
+    width: 95%;
+    height: 90px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 25px;
+    padding: 3px 0px;
+
+}
+.right1 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.right1 p
+{
+    font-size: 13px;
+    padding: 10px 0px 0px 10px;
+    margin: 0px 225px 0px 0px;
+    
+    
+}
+.right2
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px 1px 10px;
+}
+.right2 p
+{
+    border: solid rgb(218, 211, 211);
+    border-radius: 4px;
+    padding: 1px 60px 1px 5px;
+    
+}
+.container8
+{
+    width: 95%;
+    height: 200px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 25px;
+    padding: 3px 10px;
+
+}
+.one
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(247, 243, 243);
+    color: rgb(110, 109, 109);
+    padding: 10px;
+    
+}
+.two
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+.two h1
+{
+    color: blue;
+    background-color: rgb(199, 199, 231);
+    padding: 1px 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.two h2
+{
+    color: purple;
+    background-color: rgb(226, 197, 226);
+    padding: 1px 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.two h3
+{
+    color: brown;
+    font-size: 15px;
+    font-weight: 500;
+}
+.two h4
+{
+    color: brown;
+    font-size: 15px;
+    font-weight: 500;
+}
+.two span
+{
+    color: blue;
+    font-size: 15px;
+    font-weight: 500;
+}
+.container9
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.three h1
+{
+    font-size: 35px;
+    margin-left: 30px;
+
+}
+.three p
+{
+    color: rgb(129, 120, 120);
+    margin-left: 30px;
+
+}
+.four a
+{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 8px 15px;
+    border-radius: 3px;
+}
+.four
+{
+    margin-right: 30px;
+}
+.box2
+{
+    width: 300px;
+    height: 120px;
+    background-color: white;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+.box3
+{
+    width: 300px;
+    height: 120px;
+    background-color: white;
+    border-radius: 3px;
+}
+.box4
+{
+    width: 300px;
+    height: 120px;
+    background-color: white;
+    border-radius: 3px;
+    margin-right: 35px;
+}
+.five
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.five1 h1
+{
+    font-size: 20px;
+    padding: 15px;
+}
+.five2 span
+{
+    font-size: 20px;
+    color: blue;
+    padding: 15px;
+
+}
+
+.six
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.six1 p
+{
+   padding: 0px 15px;
+}
+.six2 p
+{
+   padding: 0px 15px;
+}
+.container10
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.container11
+{
+    width: 95%;
+    height: 250px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 35px;
+    
+    
+}
+.box5 h1
+{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 20px;
+}
+.box6
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin: 15px;
+    
+}
+.box6 span
+{
+    color: blue;
+    background-color: rgb(167, 167, 206);
+    padding: 1px 8px;
+    border-radius: 15px;
+}
+.box7 .var
+{
+    color: yellow;
+    background-color: rgb(116, 116, 21);
+}
+.box7 .over
+{
+    color: brown;
+    background-color: rgb(233, 78, 78);
+}
+.box7 p
+{
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 20px;
+
+}
+.box8 p
+{
+    font-size: 13px;
+    margin-right: 20px;
+}
+
+.container12
+{
+    width: 95%;
+    height: 260px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 35px;
+       
+}
+.box12 h1
+{
+    font-size: 25px;
+    padding: 15px;
+    background-color: rgb(253, 247, 247);
+}
+.twelve
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+.twelve1 h3
+{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 20px;
+
+}
+.twelve1 p
+{
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 20px;
+
+
+}
+.twelve2 p
+{
+    margin-right: 20px;
+}
+.twelve span
+{
+    font-size: 13px;
+    color: brown;
+    margin-left: 20px;
+}
+.container13
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.box13 h3
+{
+    font-size: 20px;
+    margin-left: 22px;
+
+}
+.box13 p
+{
+    margin-left: 22px;
+    font-weight: 400;
+
+}
+.box14 p
+{
+    background-color: white;
+    padding: 2px 13px;
+    margin-right: 45px;
+}
