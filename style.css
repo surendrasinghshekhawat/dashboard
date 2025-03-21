@@ -1050,38 +1050,6 @@
     background-color: rgb(246, 242, 242);
     
 }
-.click
-{
-    width: 200px;
-    height: 200px;
-    background-color: rgb(171, 223, 171);
-    border-radius: 50%;
-    margin: 20px;
-}
-.danger
-{
-    width: 200px;
-    height: 200px;
-    background-color: palevioletred;
-    border-radius: 50%;
-    margin: 20px;
-}
-/* .click
-{
-    width: 200px;
-    height: 200px;
-    background-color: rgb(171, 223, 171);
-    border-radius: 50%;
-    margin: 20px;
-} */
-/* .click
-{
-    width: 200px;
-    height: 200px;
-    background-color: rgb(171, 223, 171);
-    border-radius: 50%;
-    margin: 20px;
-} */
 .reduced
 {
     display: flex;
@@ -1089,9 +1057,27 @@
     justify-content: start;
     padding: 10px;
     
-
-
 }
+.reduced1
+{
+    width: 45px;
+    height: 45px;
+    background-color: rgb(171, 223, 171);
+    border-radius: 50%;
+    
+    
+}
+.reduced1 span
+{
+    color: green;
+    font-size: 35px;
+    margin-left: 7px;
+}
+
+.reduced2 {
+    padding-left: 10px;
+}
+
 .reduced2 h2
 {
     font-size: 15px;
@@ -1099,6 +1085,79 @@
 
 }
 .reduced2 p
+{
+    font-size: 15px;
+
+}
+.danger
+{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 10px;
+
+}
+.danger1
+{
+    width: 45px;
+    height: 45px;
+    background-color: pink;
+    border-radius: 50%;
+    
+}
+.danger1 span
+{
+    color: palevioletred;
+    font-size: 28px;
+    padding-left: 10px;
+    
+
+}
+
+.danger2 h2
+{
+    font-size: 15px;
+    font-weight: 500;
+
+}
+.danger2 p
+{
+    font-size: 15px;
+
+}
+
+.arrow
+{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 10px;
+    
+}
+.arrow1
+{
+    width: 45px;
+    height: 45px;
+    background-color: rgb(150, 150, 222);
+    border-radius: 50%;
+    
+}
+.arrow1 span
+{
+    color: blue;
+    font-size: 35px;
+    margin-left: 7px;
+    margin-top: 10px;
+
+}
+
+.arrow2 h2
+{
+    font-size: 15px;
+    font-weight: 500;
+
+}
+.arrow2 p
 {
     font-size: 15px;
 
