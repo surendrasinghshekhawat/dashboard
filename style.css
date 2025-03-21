@@ -179,30 +179,71 @@
 .first 
 {
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-around;
     background-color: rgb(247, 243, 243);
     color: rgb(110, 109, 109);
     padding: 10px;
     
 }
+.first h3
+{
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.first h4
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+.first h5
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+.first h6
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
 .second 
 {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    padding: 15px;
+    justify-content: space-around;
+    padding: 10px;
 
 }
-.second p
+.second h3
 {
-    margin: 0px 20px 0px 0px;
+    font-size: 15px;
+    font-weight: 400;
+
+
+    
 }
-.second h4 
+.second h4
+{
+    font-size: 15px;
+    font-weight: 400;
+
+    
+}
+.second h5
+{
+    font-size: 15px;
+    font-weight: 400;
+
+    
+}
+.second h6
 {
     font-size: 17px;
     font-weight: 400;
-    color: maroon;
+    color: brown;
     
     
 }
@@ -214,12 +255,37 @@
     padding: 15px;
 
 }
-.third h4 
+
+.third h3
+{
+    font-size: 15px;
+    font-weight: 400;
+
+
+    
+}
+.third h4
+{
+    font-size: 15px;
+    font-weight: 400;
+
+    
+}
+.third h5
+{
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+.third h6
 {
     font-size: 17px;
     font-weight: 400;
     color: green;
+    
+    
 }
+
 .four 
 {
     display: flex;
@@ -228,13 +294,36 @@
     padding: 15px;
 
 }
-.four h4 
+.four h3
+{
+    font-size: 15px;
+    font-weight: 400;
+    
+    
+}
+.four h4
+{
+    font-size: 15px;
+    font-weight: 400;
+
+    
+}
+.four h5
+{
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+.four h6
 {
     font-size: 17px;
     font-weight: 400;
     color: maroon;
-      
+    
+    
 }
+
+
 .container6
 {
     display: flex;
@@ -282,9 +371,37 @@
     justify-content: center;
     
 }
-.right1 p
+.right1 h2
 {
     font-size: 13px;
+    font-weight: 500;
+    padding: 10px 0px 0px 10px;
+    margin: 0px 225px 0px 0px;
+    
+    
+}
+.right1 h3
+{
+    font-size: 13px;
+    font-weight: 500;
+    padding: 10px 0px 0px 10px;
+    margin: 0px 225px 0px 0px;
+    
+    
+}
+.right1 h4
+{
+    font-size: 13px;
+    font-weight: 500;
+    padding: 10px 0px 0px 10px;
+    margin: 0px 225px 0px 0px;
+    
+    
+}
+.right1 h5
+{
+    font-size: 13px;
+    font-weight: 500;
     padding: 10px 0px 0px 10px;
     margin: 0px 225px 0px 0px;
     
@@ -297,8 +414,37 @@
     justify-content: space-between;
     padding: 5px 20px 1px 10px;
 }
-.right2 p
+.right2 h2
 {
+    font-size: 15px;
+    font-weight: 400;
+    border: solid rgb(218, 211, 211);
+    border-radius: 4px;
+    padding: 1px 60px 1px 5px;
+    
+}
+.right2 h3
+{
+    font-size: 15px;
+    font-weight: 400;
+    border: solid rgb(218, 211, 211);
+    border-radius: 4px;
+    padding: 1px 60px 1px 5px;
+    
+}
+.right2 h4
+{
+    font-size: 15px;
+    font-weight: 400;
+    border: solid rgb(218, 211, 211);
+    border-radius: 4px;
+    padding: 1px 60px 1px 5px;
+    
+}
+.right2 h5
+{
+    font-size: 15px;
+    font-weight: 400;
     border: solid rgb(218, 211, 211);
     border-radius: 4px;
     padding: 1px 60px 1px 5px;
@@ -324,6 +470,36 @@
     padding: 10px;
     
 }
+.one h1
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+.one h2
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+.one h3
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+.one h4
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+.one h5
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+.one h6
+{
+    font-size: 20px;
+    font-weight: 400;
+}
 .two
 {
     display: flex;
@@ -333,40 +509,104 @@
 }
 .two h1
 {
+    font-size: 15px;
+    font-weight: 400;
+}
+.two h2
+{
+    font-size: 15px;
+    font-weight: 400;
+}
+.two h3
+{
     color: blue;
     background-color: rgb(199, 199, 231);
     padding: 1px 10px;
     border-radius: 15px;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 400;
 }
-.two h2
+.two h4
 {
     color: purple;
     background-color: rgb(226, 197, 226);
     padding: 1px 10px;
     border-radius: 15px;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 400;
 }
-.two h3
+.two h5
 {
     color: brown;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 400;
 }
-.two h4
+.two h6
 {
     color: brown;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 400;
 }
 .two span
 {
     color: blue;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 400;
 }
+.two1
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+.two1 h1
+{
+    font-size: 15px;
+    font-weight: 400;
+}
+.two1 h2
+{
+    font-size: 15px;
+    font-weight: 400;
+}
+.two1 h3
+{
+    color: blue;
+    background-color: rgb(199, 199, 231);
+    padding: 1px 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.two1 h4
+{
+    color: purple;
+    background-color: rgb(226, 197, 226);
+    padding: 1px 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.two1 h5
+{
+    color: brown;
+    font-size: 15px;
+    font-weight: 400;
+}
+.two1 h6
+{
+    color: brown;
+    font-size: 15px;
+    font-weight: 400;
+}
+.two1 span
+{
+    color: blue;
+    font-size: 15px;
+    font-weight: 400;
+}
+
 .container9
 {
     display: flex;
@@ -435,7 +675,7 @@
 }
 .five2 span
 {
-    font-size: 20px;
+    font-size: 22px;
     color: blue;
     padding: 15px;
 
@@ -455,6 +695,11 @@
 {
    padding: 0px 15px;
 }
+.five2 .dolar
+{
+    color: green;
+    font-size: 22px;
+}
 .container10
 {
     display: flex;
@@ -462,6 +707,8 @@
     justify-content: space-between;
     margin-top: 30px;
 }
+
+
 .container11
 {
     width: 95%;
@@ -590,3 +837,396 @@
     padding: 2px 13px;
     margin-right: 45px;
 }
+.container14
+{
+    width: 95%;
+    height: 260px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 35px;
+    margin: 20px;
+}
+.container14 
+{
+    font-size: 22px;
+    padding: 20px;
+    background-color: rgb(253, 247, 247);
+   
+}
+.box14 h2
+{
+    font-size: 25px;
+    padding: 10px;
+    background-color: rgb(253, 247, 247);
+}
+.fourteen
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.fourteen1 h2
+{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.fourteen2 p
+{
+    margin-right: 20px;
+
+}
+.fiveteen
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.fiveteen1 h2
+{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.fiveteen2 p
+{
+    margin-right: 20px;
+
+}
+.sixteen
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.sixteen1 h2
+{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.sixteen2 p
+{
+    margin-right: 20px;
+
+}
+.box15
+{
+    width: 250px;
+    height: 140px;
+    background-color: white;
+    border-radius: 3px;
+    margin-left: 22px;
+}
+.box15 h2
+{
+    color: rgb(110, 95, 95);
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px;
+}
+.box15 h1
+{
+    font-size: 25px;
+    padding: 0px 15px;
+}
+.box15 span
+{
+    color: rgb(72, 235, 72);
+}
+.box15 p
+{
+    padding: 0px 15px;
+}
+.box16
+{
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    border-radius: 3px;
+
+}
+.box16 h2
+{
+    color: rgb(110, 95, 95);
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px;
+}
+.box16 h1
+{
+    font-size: 25px;
+    padding: 0px 15px;
+}
+.box16 span
+{
+    color: brown;
+}
+.box16 p
+{
+    padding: 0px 15px;
+}
+.box17
+{
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    border-radius: 3px;
+
+}
+.box17 h2
+{
+    color: rgb(110, 95, 95);
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px;
+}
+.box17 h1
+{
+    font-size: 25px;
+    padding: 0px 15px;
+}
+.box17 span
+{
+    color: rgb(72, 235, 72);
+}
+.box17 p
+{
+    padding: 0px 15px;
+}
+.box18
+{
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    margin-right: 35px;
+    border-radius: 3px;
+
+}
+.box18 h2
+{
+    color: rgb(110, 95, 95);
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px;
+}
+.box18 h1
+{
+    font-size: 25px;
+    padding: 0px 15px;
+}
+.box18 span
+{
+    color: rgb(72, 235, 72);
+}
+.box18 p
+{
+    padding: 0px 15px;
+}
+.container15
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.container19
+{
+    width: 95%;
+    height: 270px;
+    background-color: white;
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.box19 h2
+{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px;
+    background-color: rgb(246, 242, 242);
+    
+}
+.click
+{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(171, 223, 171);
+    border-radius: 50%;
+    margin: 20px;
+}
+.danger
+{
+    width: 200px;
+    height: 200px;
+    background-color: palevioletred;
+    border-radius: 50%;
+    margin: 20px;
+}
+/* .click
+{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(171, 223, 171);
+    border-radius: 50%;
+    margin: 20px;
+} */
+/* .click
+{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(171, 223, 171);
+    border-radius: 50%;
+    margin: 20px;
+} */
+.reduced
+{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 10px;
+    
+
+
+}
+.reduced2 h2
+{
+    font-size: 15px;
+    font-weight: 500;
+
+}
+.reduced2 p
+{
+    font-size: 15px;
+
+}
+.container20
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.boy1 h1
+{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.boy1 p
+{
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+.boy2 span
+{
+    color: white;
+    background-color: blue;
+    border-radius: 3px;
+    padding: 4px 10px;
+    margin-right: 45px;
+}
+.parent21
+{
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    border-radius: 3px;
+    margin-left: 20px;
+   
+}
+.cat 
+{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 15px;
+
+}
+.cat1 span
+{
+    margin-left: 10px;
+}
+.cat2 h2
+{
+    font-size: 15px;
+    font-weight: 500;
+}
+.cat2
+{
+    padding: 0px 10px;
+
+}
+.cat2 p
+{
+    font-size: 13px;
+    font-weight: 400;
+}
+.dog
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+
+
+}
+
+.dog2
+{
+    margin-right: 10px;
+}
+.dog h2
+{
+    font-size: 15px;
+    font-weight: 500;
+}
+.eye
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+
+
+}
+.eye2
+{
+    margin-right: 10px;
+}
+
+.eye h2
+{
+    font-size: 15px;
+    font-weight: 500;
+
+}
+.parent22
+{
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    border-radius: 3px;
+}
+.parent23
+{
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    border-radius: 3px;
+    margin-right: 35px;
+    
+}
+.container21
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
